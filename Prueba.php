@@ -36,7 +36,7 @@ if (isset($params['access_token'])) {
     var_dump($api_response);
 } else {
     // No se pudo obtener el token de acceso
-    echo 'Error al obtener el token de acceso';
+    echo 'Error al  intentar obtener el token de acceso';
 }
 
 ?>
